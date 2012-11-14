@@ -22,7 +22,7 @@
 int compare(char *s, char *t) {
 	while(s!='\0' && t!='\0') {
 		if (*s-*t != 0) return (*s-*t);
-		else s++; t++;
+		else {s++; t++;}
 	}
 	return 0;
 }
