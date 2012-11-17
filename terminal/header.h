@@ -4,7 +4,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <stdlib.h>
-
+#include <sys/wait.h>
 int main();
 void quit();
 void get_command(char *tokens[100], char commands[80]);
